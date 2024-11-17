@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+
+	background-color: #262c34;
+
+	// Стили для названия страницы
+	h1 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		color: #fff;
+	}
+
+}
