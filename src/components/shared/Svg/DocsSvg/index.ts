@@ -1,0 +1,1 @@
+export { DocsSvg } from "./DocsSvg";
