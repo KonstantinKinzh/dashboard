@@ -4,10 +4,10 @@
 	transition: background-color .3s ease;
 
 	&:hover {
-		background-color: #0066CC;
+		background-color: var(--hover-color);
 	}
 
 	&:active {
-		background-color: #0099FF;
+		background-color: var(--active-color);
 	}
 }
