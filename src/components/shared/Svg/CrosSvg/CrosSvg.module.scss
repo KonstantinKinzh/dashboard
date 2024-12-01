@@ -1,0 +1,8 @@
+.cros-svg {
+	cursor: pointer;
+	transition: transform .2s ease;
+
+	&:hover {
+		transform: scale(0.9);
+	}
+}

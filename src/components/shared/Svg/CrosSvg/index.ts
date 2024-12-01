@@ -1,0 +1,1 @@
+export { CrosSvg } from "./CrosSvg";

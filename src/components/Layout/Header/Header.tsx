@@ -5,8 +5,8 @@ export const Header = () => {
 	const { headerContent } = useLayout();
 
 	return (
-		<div className={"header"}>
+		<header className={"header"}>
 			{headerContent}
-		</div>
+		</header>
 	);
 };
