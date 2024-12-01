@@ -8,7 +8,9 @@ export const Layout = () => {
 		<DefaultLayout>
 			<Header />
 			<Sidebar />
-			<Outlet />
+			<main>
+				<Outlet />
+			</main>
 		</DefaultLayout>
 	);
 };
