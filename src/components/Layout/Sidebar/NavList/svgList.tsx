@@ -1,4 +1,4 @@
-import { LogoSvg, ImagesSvg, DocsSvg } from "@/components/shared/Svg";
+import { LogoSvg, ImagesSvg, DocsSvg, FlowWorkspaceSvg } from "@/components/shared/Svg";
 
 export const svgList = [
 	{
@@ -17,5 +17,11 @@ export const svgList = [
 		id: "3",
 		path: "/docs",
 		svgIcon: <DocsSvg/>,
+	},
+
+	{
+		id: "4",
+		path: "/flow-workspace",
+		svgIcon: <FlowWorkspaceSvg/>,
 	},
 ];

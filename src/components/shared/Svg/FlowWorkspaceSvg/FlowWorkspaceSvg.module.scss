@@ -1,0 +1,13 @@
+.svg {
+	padding: 12.5px;
+	cursor: pointer;
+	transition: background-color .3s ease;
+
+	&:hover {
+		background-color: var(--hover-color);
+	}
+
+	&:active {
+		background-color: var(--active-color);
+	}
+}

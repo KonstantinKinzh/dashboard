@@ -6,7 +6,7 @@ import { Layout } from "@/components/Layout/Layout";
 import { Flow } from "@/components/widgets/Flow";
 import { Images } from "@/components/Pages/images";
 import { Docs } from "@/components/Pages/docs";
-import {FlowWorkspace} from "@/components/Pages/FlowWorkspace";
+import { FlowWorkspace } from "@/components/Pages/FlowWorkspace";
 
 // Paths
 import { paths } from "./paths";
@@ -18,9 +18,9 @@ export const routes = createBrowserRouter([
 		children: [
 
 			{
-        index: true,
-        element: <Images />
-      },
+				index: true,
+				element: <Images />
+			},
 
 			{
 				path: paths.images,
@@ -34,8 +34,12 @@ export const routes = createBrowserRouter([
 
 			{
 				path: paths.flowWorkspace,
-				element: <Flow><FlowWorkspace/></Flow>
-			}
+				element: (
+					<Flow>
+						<FlowWorkspace />
+					</Flow>
+				),
+			},
 
 		],
 	},
